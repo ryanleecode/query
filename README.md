@@ -93,7 +93,7 @@ type Options = {
   // How much time should pass between running fetcher for the exact same key parts
   // default = 4000 (=4 seconds; provide all time in milliseconds)
   dedupeTime?: number;
-  // Lifetime for the stale cache. It present stale cache will be shown to a user.
+  // Lifetime for the stale cache. If present, stale cache will be shown to a user.
   // Cannot be less than `dedupeTime`.
   // default = Infinity
   cacheLifetime?: number;
